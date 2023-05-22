@@ -96,7 +96,7 @@ class Game:
             case _:
                 print("Try again")      
                 return True 
-        print(f"You are now in {cls.current_room.name}. You can find here: {cls.current_room.items}")
+        print(f"You are now in {cls.current_room.name}. You can find here:")
         for item in cls.current_room.items:
                 print (f"{item}") 
 
