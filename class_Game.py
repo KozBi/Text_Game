@@ -11,8 +11,6 @@ HELP_txt=pathlib.Path(r"C:\Users\kozlo\OneDrive\Pulpit\Game-Coocking\HELP.txt")
 with HELP_txt.open(mode="r", encoding="utf-8") as file:
     HELP=file.read()
 
-# kitchen= {"name" : "kitchen",
-#           "item" : []}
 
 storage= {"name" : "storage",
           "tool" : ["pan", "knife"]}
@@ -20,10 +18,6 @@ storage= {"name" : "storage",
 pantry= {"name" : "pantry",
           "item" : ["uncut vegetables" , "uncut vegetables", "raw meat" ,"raw meat"],
           "substract": ["burger bun" , "burger bun"]}
-
-# kitchen= {"name" : "kitchen",
-#           "item" : [],
-#           "substract": ["burger bun" , "burger bun","burger meat","vegetables","vegetables","burger meat","vegetables"]}
 
 kitchen= {"name" : "kitchen",
           "item" : [],
